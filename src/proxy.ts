@@ -17,7 +17,7 @@ type OnRequestCallback = (
 
 /**
  * Apollo GraphQL lightweight proxy, so you can intercept a call and
- * do something: logging, variables changing e.t.c
+ * do something: logging, variables changing e.t.c.
  *
  * Usage:
  * ```
@@ -36,7 +36,7 @@ type OnRequestCallback = (
  *
  * ```
  *
- * see also test/mainTst.ts for an example.
+ * see also [test/mainTst.ts](https://github.com/softremake/apollo-proxy/blob/master/test/mainTst.ts) for an example.
  *
  * @param port port number proxy listens to
  * @param onRequest see [[OnRequestCallback]]
